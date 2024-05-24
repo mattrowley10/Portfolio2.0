@@ -64,7 +64,7 @@ export default function Home() {
             </a>
           </li>
         </ul>
-        <div className="home-description flex justify-center relative bottom-52 2xl:bottom-72 md:text-2xl">
+        <div className="home-description flex justify-center relative bottom-52 2xl:bottom-72 3xl:bottom-80 md:text-2xl">
           <p>My name is Matthew and I am a Software Developer</p>
         </div>
       </div>

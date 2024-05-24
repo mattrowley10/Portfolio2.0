@@ -138,6 +138,21 @@ html, body{
     width: 28rem;
   }
 }
+@media(max-width: 1728px){
+  .icons{
+    margin-bottom: 23rem;
+  }
+  .container{
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .carousel-img{
+    height: 50rem;
+  }
+  .home{
+    height: 280vh;
+  }
+}
 @media(max-width: 1440px){
   .home{
      height: 287vh;
