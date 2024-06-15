@@ -5,7 +5,7 @@ import Projects from "./Projects";
 export default function Home() {
   return (
     <div id="home" className="home">
-      <div className="home-img-div flex justify-center pt-20 md:pt-16 lg:pt-16 xl:pt-20 2xl:pt-24">
+      <div className="home-img-div flex justify-center pt-16 md:pt-16 lg:pt-16 xl:pt-20 2xl:pt-24">
         <img className="homeImg" src="/Mom's wedding pic.jpg" />
       </div>
       <div className="icons-div">
