@@ -11,7 +11,7 @@ export default withMT({
       "2xl": "1536px",
       "3xl": "1728px",
     },
-    extend: {},
+    extend: { "3xl": "1728px" },
   },
   plugins: [],
 });

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="about-div pt-20 md:pt-40 lg:pt-40 xl:pt-56 2xl:pt-80"
+      className="about-div pt-16 md:pt-60 lg:pt-52 xl:pt-56 2xl:pt-80"
       ref={ref}
     >
       <motion.p
@@ -21,7 +21,7 @@ export default function About() {
         <motion.p
           animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 200 }}
           transition={{ duration: 2 }}
-          className="about-body xl:text-2xl ml-10 mr-16 mt-10 md:mr-16 md:mt-8 lg:mt-20  2xl:mt-28"
+          className="about-body xl:text-2xl ml-10 mr-8 mt-10 md:mr-16 md:mt-8 lg:mt-20  2xl:mt-28"
         >
           Detail-oriented Full Stack Developer with a proven track record in
           JavaScript, HTML, CSS, React, Node.js, and more. Dedicated to

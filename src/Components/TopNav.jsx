@@ -28,7 +28,10 @@ export default function TopNav() {
   }, [dropDownRef]);
   return (
     <div className="topNav flex">
-      <p className="text-3xl cursor-pointer" onClick={() => nav("/")}>
+      <p
+        className="text-2xl lg:text-3xl cursor-pointer"
+        onClick={() => nav("/")}
+      >
         Matthew William Rowley
       </p>
       <div className="absolute right-0 mr-4 inline-flex">

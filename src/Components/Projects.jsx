@@ -13,7 +13,7 @@ export default function Projects() {
           return (
             <button
               onClick={handlePrev}
-              disabled={!loop && firstIndex}
+              // disabled={!loop && firstIndex}
               className="!absolute top-2/4 left-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-black hover:bg-white/10 active:bg-white/30 grid place-items-center"
             >
               <HiArrowSmallLeft strokeWidth={3} className="-ml-1 h-7 w-7" />
@@ -23,7 +23,7 @@ export default function Projects() {
         nextArrow: ({ loop, handleNext, lastIndex }) => (
           <button
             onClick={handleNext}
-            disabled={!loop && lastIndex}
+            // disabled={!loop && lastIndex}
             className="!absolute top-2/4 right-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-black hover:bg-white/10 active:bg-white/30 grid place-items-center"
           >
             <HiArrowSmallRight strokeWidth={3} className="ml-1 h-7 w-7" />
@@ -73,7 +73,7 @@ export default function Projects() {
   };
   return (
     <div id="projects" className="projects-div">
-      <h2 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl relative top-10 2xl:top-12 text-center mb-20 md:mb-16 lg:mb-16 2xl:mb-20">
+      <h2 className="text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl relative top-10 lg:top-12 xl:top-8 2xl:top-12 text-center mb-36 md:mb-28 lg:mb-28 xl:mb-20 2xl:mb-20">
         Projects
       </h2>
       <div className="container">
