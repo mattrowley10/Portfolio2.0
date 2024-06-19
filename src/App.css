@@ -102,6 +102,7 @@ html, body{
 .footer{
   position: relative;
   bottom: 0;
+  display: block;
 }
 .footer-list{
   position: absolute;

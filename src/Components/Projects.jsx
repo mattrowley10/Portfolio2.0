@@ -4,7 +4,6 @@ import { HiArrowSmallRight } from "react-icons/hi2";
 import { HiArrowSmallLeft } from "react-icons/hi2";
 import { BiArrowFromLeft } from "react-icons/bi";
 import { ChevronRight } from "@material-tailwind/react";
-import Footer from "./Footer";
 
 export default function Projects() {
   const carouselTheme = {
@@ -120,7 +119,6 @@ export default function Projects() {
           </Carousel>
         </ThemeProvider>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }
