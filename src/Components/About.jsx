@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="about-div pt-16 md:pt-60 lg:pt-52 xl:pt-56 2xl:pt-80"
+      className="about-div pt-12 md:pt-60 lg:pt-52 xl:pt-56 2xl:pt-80"
       ref={ref}
     >
       <motion.p
