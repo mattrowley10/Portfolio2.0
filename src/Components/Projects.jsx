@@ -4,6 +4,7 @@ import { HiArrowSmallRight } from "react-icons/hi2";
 import { HiArrowSmallLeft } from "react-icons/hi2";
 import { BiArrowFromLeft } from "react-icons/bi";
 import { ChevronRight } from "@material-tailwind/react";
+import Footer from "./Footer";
 
 export default function Projects() {
   const carouselTheme = {
@@ -73,10 +74,10 @@ export default function Projects() {
   };
   return (
     <div id="projects" className="projects-div">
-      <h2 className="text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl relative top-10 lg:top-12 xl:top-8 2xl:top-12 text-center mb-36 md:mb-28 lg:mb-28 xl:mb-20 2xl:mb-20">
+      <h2 className="text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl relative top-10 lg:top-12 xl:top-8 2xl:top-12 text-center mb-24 md:mb-28 lg:mb-28 xl:mb-20 2xl:mb-20">
         Projects
       </h2>
-      <div className="container">
+      <div className="container mb-20 xl:mb-28">
         <ThemeProvider value={carouselTheme}>
           <Carousel
             transition={{ duration: 1 }}
@@ -119,6 +120,7 @@ export default function Projects() {
           </Carousel>
         </ThemeProvider>
       </div>
+      {/* <Footer /> */}
     </div>
   );
 }
